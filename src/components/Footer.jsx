@@ -2,7 +2,7 @@
 
 function Footer() {
 	return (
-		<footer className="footer text-center mt-5 pt-5">
+		<footer className="footer text-center mt-4 pt-4">
 			{/* Horizontal line */}
 			<hr></hr>
 			<div className="my-5">
@@ -13,6 +13,8 @@ function Footer() {
 
 			</div>
 		</footer>
+
+		
 	);
 }
 

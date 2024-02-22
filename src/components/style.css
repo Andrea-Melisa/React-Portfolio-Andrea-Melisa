@@ -3,7 +3,7 @@
 }
 
 a:hover {
-    color: #535bf2;
+    color: var(--turquoise) !important;
 }
 
 .nav-link:hover {
@@ -11,29 +11,39 @@ a:hover {
     text-shadow:0.5px 0.5px 0.5px #0b0b0b !important;
 }
 
+h1, h2 {
+    padding: 2%;
+}
+
+li {
+    margin: 1%;
+
+}
+
 .photo {
     height: 30%;
     width: 30%;
     border-radius:40%;
-    filter: blur(1px);
-    border:2px solid var(--turquoise);
+    border: 2px solid var(--turquoise);
     box-shadow: 3px 3px 20px 2px;
+}
+
+.CardContainer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center;  */
+
 }
 
 .card {
     background: #fff;
-    border-radius: 10px;
-    height: 325px;
-    margin: 3rem;
-    position: relative;
-    width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: center;
-    height: 600px !important;
+    margin: 2rem;
+    box-shadow: 3px 3px 20px 2px;
+    border:2px solid var(--turquoise) !important;
+    height: 580px !important;
     width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -45,9 +55,14 @@ a:hover {
     margin: 1rem;
 }
 
+.button:hover {
+    box-shadow: 0 6px 10px gray;
+}
 
 .form {
-    background-color: aquamarine;
+    background-color: rgb(213, 225, 219);
+    display:inline-block;
+    width: 40%;
 }
 
 span {
