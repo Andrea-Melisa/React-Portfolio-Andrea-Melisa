@@ -106,7 +106,12 @@ Remember, "good" design is subjective. Your site should look "polished" and "pro
 
 Navigate through the web page.  
 
-**Here is the link to this project** https://andrea-melisa.github.io/React-Portfolio-Andrea-Melisa/
+**Here is the link to this project** https://bespoke-sable-e3fd2d.netlify.app
+
+Here you have a screenshot from the web page:
+
+![web intro](src/assets/images/reactProfile.png)
+![web intro](src/assets/images/reactProfileMobile.png)
 
   ## License 
   This project is licensed under the MIT license.
