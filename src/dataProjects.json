@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Weather Dashboard",
     "description": "Ask the weather",
-    "screenshot": "./mages/weather.png",
+    "screenshot": "./images/weather.png",
     "github": "https://github.com/Andrea-Melisa/Weather-Dashboard-Andrea-Melisa",
     "web": "https://andrea-melisa.github.io/Weather-Dashboard-Andrea-Melisa/"
     },
